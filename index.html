@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estacionamento</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" 
+        rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body onload="renderLayout()">
+  <div class="container">
+    <form action="" class="form">
+      <div class="input-block">
+        <label for="model">Modelo</label>
+        <input type="text" name="model" placeholder="Digite o modelo do carro" required>
+      </div>
+      <div class="input-block">
+        <label for="board">Placa</label>
+        <input type="text" name="board" placeholder="Digite a placa do carro" required>
+      </div>
+      <button type="submit" class="btn-add">Adicionar</button>
+    </form>
+
+    <div class="table">
+      <table>
+        <thead>
+          <tr class="table-title">
+            <th>Modelo</th>
+            <th>Placa</th>
+            <th>Entrada</th>
+            <th>Finalizar</th>
+          </tr>
+        </thead>
+        <tbody class="table-body">
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+@mixin button($color, $padding) {
+  font-family: 'Poppins', sans-serif;
+  border: 0;
+  background-color: $color;
+  color: #fff;
+  padding: $padding;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($color, 15%);
+  }
+}
+
+.container {
+  width: 80%;
+  max-width: 700px;
+  margin: 20px auto;
+
+  display: flex;
+  flex-direction: column;
+}

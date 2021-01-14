@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 80%;
+  max-width: 700px;
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form {
+  width: 100%;
+  padding: 20px;
+  background-color: #ececec;
+}
+
+.form .input-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form label {
+  margin-bottom: 2px;
+}
+
+.form input {
+  padding: 5px;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.form .btn-add {
+  font-family: 'Poppins', sans-serif;
+  border: 0;
+  background-color: #003cff;
+  color: #fff;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.form .btn-add:hover {
+  background-color: #002ab3;
+}
+
+.table {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.table table {
+  width: 100%;
+}
+
+.table tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.table tbody {
+  color: gray;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.table .table-title {
+  padding-bottom: 4px;
+  border-bottom: 1px solid  gray;
+}
+
+.table .btn-remove {
+  font-family: 'Poppins', sans-serif;
+  border: 0;
+  background-color: red;
+  color: #fff;
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.table .btn-remove:hover {
+  background-color: #b30000;
+}
+/*# sourceMappingURL=main.css.map */
